@@ -1,0 +1,39 @@
+* {
+   margin: 0;
+   padding: 0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+body {
+   background-color: #f0f0f0;
+
+   height: 100dvh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.game {
+   background-color: #fff;
+   padding: 20px;
+   border-radius: 15px;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   gap: 10px;
+}
+#coin {
+   max-width: 200px;
+   transition: 0.1s;
+
+   &:active {
+      scale: 1.05;
+   }
+}
+#buyUpgrade {
+   padding: 15px;
+   border-radius: 15px;
+   background-color: lightgreen;
+   border: none;
+}
